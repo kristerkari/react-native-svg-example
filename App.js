@@ -6,44 +6,50 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import React, { Component } from "react";
+import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import Bower from "./logos/bower.svgx";
+import Snyk from "./logos/snyk.svgx";
+import Drupal from "./logos/drupal.svgx";
+import Composer from "./logos/composer.svgx";
+import Ember from "./logos/ember.svgx";
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
+      <SafeAreaView style={styles.container}>
+        <ScrollView
+          style={styles.scrollView}
+          contentContainerStyle={styles.containerStyles}
+        >
+          <Bower width={256} height={225} style={styles.logo} />
+          <Snyk width={256} height={419} style={styles.logo} />
+          <Drupal width={256} height={295} style={styles.logo} />
+          <Composer width={256} height={339} style={styles.logo} />
+          <Ember width={256} height={245} style={styles.logo} />
+        </ScrollView>
+      </SafeAreaView>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  logo: {
+    marginTop: 20,
+    marginBottom: 20
+  },
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    justifyContent: "flex-start",
+    alignItems: "center"
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  scrollView: {
+    width: "100%"
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+  containerStyles: {
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
+  }
 });

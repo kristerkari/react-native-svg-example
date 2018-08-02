@@ -4144,6 +4144,19 @@ react-is@^16.4.1:
   version "16.4.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.4.2.tgz#84891b56c2b6d9efdee577cc83501dfc5ecead88"
 
+react-native-svg-loader@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-svg-loader/-/react-native-svg-loader-0.1.5.tgz#1edb65f51d16fb37638b28fe9f1ab425eb1820d4"
+  dependencies:
+    xmldom "^0.1.27"
+
+react-native-svg-transformer@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.10.0.tgz#0dcda8c3bc4a88e074367ed701a4934aba2d431b"
+  dependencies:
+    react-native-svg-loader "^0.1.5"
+    semver "^5.5.0"
+
 react-native-svg@^6.5.1:
   version "6.5.1"
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-6.5.1.tgz#97643b28f4931623f8cec2700a23fa4505827ed3"
@@ -5290,7 +5303,7 @@ xmldoc@^0.4.0:
   dependencies:
     sax "~1.1.1"
 
-xmldom@0.1.x:
+xmldom@0.1.x, xmldom@^0.1.27:
   version "0.1.27"
   resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.1.27.tgz#d501f97b3bdb403af8ef9ecc20573187aadac0e9"
 
