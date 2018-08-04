@@ -34,7 +34,7 @@ export default class App extends Component<Props> {
   }
 }
 
-const styles = StyleSheet.create({
+const styles = {
   logo: {
     marginTop: 20,
     marginBottom: 20
@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "center"
   }
-});
+};
