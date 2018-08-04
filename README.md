@@ -1,5 +1,8 @@
 # React Native SVG demo
 
+![Platform - Android, iOS and Web](https://img.shields.io/badge/platform-Android%20%7C%20iOS%20%7C%20Web-blue.svg)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github)
+
 A simple example app that shows how you can use SVG files in React Native
 
 ## Try it
@@ -45,8 +48,14 @@ or
 npm run android
 ```
 
+or
+
+```sh
+npm run web
+```
+
 ## Screenshots
 
-**iOS - Android**
+**iOS - Android - Web**
 
-<img src="screenshots/ios.png" width="50%"><img src="screenshots/android.png" width="50%">
+<img src="screenshots/ios.png" width="33.3333%"><img src="screenshots/android.png" width="33.3333%"><img src="screenshots/web.png" width="33.3333%">
