@@ -6468,12 +6468,12 @@ react-native-svg-loader@^0.1.5:
   dependencies:
     xmldom "^0.1.27"
 
-react-native-svg-transformer@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.10.0.tgz#0dcda8c3bc4a88e074367ed701a4934aba2d431b"
+react-native-svg-transformer@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.11.0.tgz#025503f0fc0ca6b1251f9576cb56960a6c568971"
   dependencies:
     react-native-svg-loader "^0.1.5"
-    semver "^5.5.0"
+    semver "^5.5.1"
 
 react-native-svg@^6.5.1:
   version "6.5.1"
@@ -6952,6 +6952,10 @@ selfsigned@^1.9.1:
 "semver@2 || 3 || 4 || 5", semver@5.x, semver@^5.0.3, semver@^5.1.0, semver@^5.3.0, semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+
+semver@^5.5.1:
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.1.tgz#7dfdd8814bdb7cabc7be0fb1d734cfb66c940477"
 
 send@0.16.2:
   version "0.16.2"
