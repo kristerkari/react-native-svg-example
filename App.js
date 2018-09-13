@@ -7,12 +7,12 @@
  */
 
 import React, { Component } from "react";
-import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
-import Bower from "./logos/bower.svgx";
-import Snyk from "./logos/snyk.svgx";
-import Drupal from "./logos/drupal.svgx";
-import Composer from "./logos/composer.svgx";
-import Ember from "./logos/ember.svgx";
+import { SafeAreaView, ScrollView } from "react-native";
+import Bower from "./logos/bower.svg";
+import Composer from "./logos/composer.svg";
+import Drupal from "./logos/drupal.svg";
+import Ember from "./logos/ember.svg";
+import Snyk from "./logos/snyk.svg";
 
 type Props = {};
 export default class App extends Component<Props> {

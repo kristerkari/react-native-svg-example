@@ -17,12 +17,16 @@ module.exports = {
         loader: "babel-loader",
         query: {
           babelrc: false,
-          presets: ["@babel/preset-env", "react", "react-native"],
+          presets: [
+            "@babel/preset-env",
+            "react",
+            "module:metro-react-native-babel-preset"
+          ],
           plugins: ["react-hot-loader/babel"]
         }
       },
       {
-        test: /\.svgx$/,
+        test: /\.svg$/,
         exclude: /node_modules/,
         use: [
           {
