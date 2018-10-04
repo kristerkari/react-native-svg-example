@@ -13,7 +13,7 @@
     "react": "16.5.1",
     "react-art": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-native": "0.57.0",
+    "react-native": "0.57.2",
     "react-native-svg": "^7.0.3",
     "react-native-web": "^0.9.0"
   },
