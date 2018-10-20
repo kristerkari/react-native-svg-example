@@ -6536,9 +6536,9 @@ react-native-svg-transformer@^0.11.0:
     react-native-svg-loader "^0.1.5"
     semver "^5.5.1"
 
-react-native-svg@^7.0.3:
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-7.0.3.tgz#1ced56f4f6e96ad95374d66706390f51fa86bea7"
+react-native-svg@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-8.0.0.tgz#9b55a3ed4be7e196da669bae8933b5b8a63d5458"
   dependencies:
     color "^2.0.1"
     lodash "^4.16.6"
