@@ -14,7 +14,7 @@
     "react-art": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-native": "0.57.2",
-    "react-native-svg": "^8.0.3",
+    "react-native-svg": "^8.0.8",
     "react-native-web": "^0.9.4"
   },
   "devDependencies": {
