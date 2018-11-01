@@ -16,6 +16,8 @@ import Egghead from "./logos/egghead.svg";
 import Ember from "./logos/ember.svg";
 import Hostgator from "./logos/hostgator.svg";
 import Pug from "./logos/pug.svg";
+import ReduxObservable from "./logos/redux-observable.svg";
+import RubyMine from "./logos/rubymine.svg";
 import Snyk from "./logos/snyk.svg";
 import Stylelint from "./logos/stylelint.svg";
 
@@ -38,6 +40,8 @@ export default class App extends Component<Props> {
           <Hostgator width={256} height={348} style={styles.logo} />
           <Pug width={256} height={256} style={styles.logo} />
           <Stylelint width={256} height={245} style={styles.logo} />
+          <ReduxObservable width={256} height={250} style={styles.logo} />
+          <RubyMine width={256} height={256} style={styles.logo} />
         </ScrollView>
       </SafeAreaView>
     );
