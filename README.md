@@ -7,6 +7,20 @@ A simple example app that shows how you can use SVG files in React Native.
 
 The SVG images used in this app can be found from the [logos](/logos) folder.
 
+## How does it work?
+
+The `.svg` files can be imported inside a React component:
+
+```jsx
+import Logo from "./logo.svg";
+```
+
+The images can then be used as a component:
+
+```jsx
+<Logo width={120} height={40} />
+```
+
 ## Try it
 
 ### Step 1: Install depencies to run React Native
