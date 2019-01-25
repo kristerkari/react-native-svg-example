@@ -30,18 +30,18 @@ export default class App extends Component<Props> {
           style={styles.scrollView}
           contentContainerStyle={styles.containerStyles}
         >
-          <Bower width={256} height={225} style={styles.logo} />
-          <Snyk width={256} height={419} style={styles.logo} />
-          <Drupal width={256} height={295} style={styles.logo} />
-          <Composer width={256} height={339} style={styles.logo} />
-          <Ember width={256} height={245} style={styles.logo} />
-          <Autocode width={256} height={241} style={styles.logo} />
-          <Egghead width={256} height={263} style={styles.logo} />
-          <Hostgator width={256} height={348} style={styles.logo} />
-          <Pug width={256} height={256} style={styles.logo} />
-          <Stylelint width={256} height={245} style={styles.logo} />
-          <ReduxObservable width={256} height={250} style={styles.logo} />
-          <RubyMine width={256} height={256} style={styles.logo} />
+          <Bower style={styles.logo} />
+          <Snyk style={styles.logo} />
+          <Drupal style={styles.logo} />
+          <Composer style={styles.logo} />
+          <Ember style={styles.logo} />
+          <Autocode style={styles.logo} />
+          <Egghead style={styles.logo} />
+          <Hostgator style={styles.logo} />
+          <Pug style={styles.logo} />
+          <Stylelint style={styles.logo} />
+          <ReduxObservable style={styles.logo} />
+          <RubyMine style={styles.logo} />
         </ScrollView>
       </SafeAreaView>
     );
