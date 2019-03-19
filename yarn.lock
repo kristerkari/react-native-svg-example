@@ -7797,10 +7797,10 @@ react-native-svg-transformer@^0.12.1:
     "@svgr/core" "^4.1.0"
     semver "^5.6.0"
 
-react-native-svg@^9.3.3:
-  version "9.3.3"
-  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.3.3.tgz#6e94b7d1e2eee1fad23e6af317be68d6db16e5a0"
-  integrity sha512-BpZnKk73M6VH56iE/+qNQObzhj2wvm2YlPDvT4Z9DTuMjCAnnktrfw5rGgW83dg21unyMGHwm9bvkwgDV975cA==
+react-native-svg@^9.3.5:
+  version "9.3.5"
+  resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.3.5.tgz#86ea5f6de4b9996c51784c3e7f84859915519466"
+  integrity sha512-wQqW8NxePnXGOGcWo6zGsEucNQ6L+5qjstTGH8n6cLN79dI1v3yavYwYxmd5m/kTtaEv1ZtQz3qb990UFiyw3w==
 
 react-native-web@^0.11.1:
   version "0.11.1"
