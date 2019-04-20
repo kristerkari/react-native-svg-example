@@ -56,7 +56,8 @@ const styles = {
   container: {
     flex: 1,
     justifyContent: "flex-start",
-    alignItems: "center"
+    alignItems: "center",
+    backgroundColor: "#efefef"
   },
   scrollView: {
     width: "100%"
