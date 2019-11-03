@@ -79,7 +79,7 @@ PODS:
     - React-Core (= 0.60.5)
   - React-RCTWebSocket (0.60.5):
     - React-Core (= 0.60.5)
-  - RNSVG (9.9.4):
+  - RNSVG (9.13.3):
     - React
   - yoga (0.60.5.React)
 
