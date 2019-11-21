@@ -9008,10 +9008,10 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-native-svg-transformer@^0.14.1:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.14.1.tgz#a974a337ad712dc88e99538e2b1479b690e87b98"
-  integrity sha512-nrnu26s647z6Ve49H+ZSMNCFzva5csKpZyB3akvwKPAYLs2dP0YFezFIjWxwZjmAkIHAw+sQlrGx5a3jg+qsJg==
+react-native-svg-transformer@^0.14.2:
+  version "0.14.2"
+  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.14.2.tgz#07366509923c40f518fed17b4125ffdd35b59ebf"
+  integrity sha512-DmP3+X7ixIighSYgwQZ2sQEpvR1KoQgeO47iEFDOqtQ99F1KEfCBxb3Zwr8FPO+aebl2mivoArPepMkzKKnDwg==
   dependencies:
     "@svgr/core" "^4.3.3"
     "@svgr/plugin-svgo" "^4.3.1"
