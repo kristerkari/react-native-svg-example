@@ -42,7 +42,7 @@ export default class App extends Component<Props> {
           <Stylelint style={styles.logo} />
           <ReduxObservable style={styles.logo} />
           <RubyMine style={styles.logo} />
-          <Firefox style={styles.logo} width={256} height={256} />
+          <Firefox style={styles.logo} />
         </ScrollView>
       </SafeAreaView>
     );
