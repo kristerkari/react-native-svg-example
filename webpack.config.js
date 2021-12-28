@@ -3,10 +3,13 @@ const webpack = require("webpack");
 module.exports = {
   entry: ["react-hot-loader/patch", "./index.web.js"],
   devServer: {
-    hot: true
+    hot: true,
+    static: __dirname
+  },
+  optimization: {
+    moduleIds: "named",
   },
   plugins: [
-    new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin()
   ],
   module: {
@@ -15,7 +18,7 @@ module.exports = {
         test: /\.js?$/,
         exclude: /node_modules/,
         loader: "babel-loader",
-        query: {
+        options: {
           babelrc: false,
           presets: [
             "@babel/preset-env",
