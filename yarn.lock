@@ -6646,15 +6646,14 @@ react-native-codegen@^0.0.7:
     jscodeshift "^0.11.0"
     nullthrows "^1.1.1"
 
-react-native-svg-transformer@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-0.20.0.tgz#fa0fe34ddc84fa84266f54bffa6d92744b7eebad"
-  integrity sha512-yq9tXDBV2cjKMgaXNrI/xDI/HtWjmW1IJxCHyObNL1wjWl3gQinNCUwFuq17JNXAdNVARdP+aO9+jN/5MuRiYA==
+react-native-svg-transformer@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-native-svg-transformer/-/react-native-svg-transformer-1.0.0.tgz#7a707e5e95d20321b5f3dcfd0c3c8762ebd0221b"
+  integrity sha512-ALHU5VvLLyKM/BvyEG7VYJmqglvaXtU7mGRCxrEwwpJO/GBf1ZMUzc4AeJAjSodj7yYtlDYRxNSt9ySWpaa6JQ==
   dependencies:
     "@svgr/core" "^6.1.2"
     "@svgr/plugin-svgo" "^6.1.2"
     path-dirname "^1.0.2"
-    semver "^5.6.0"
 
 react-native-svg@^12.1.0:
   version "12.1.1"
