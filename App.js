@@ -29,7 +29,8 @@ export default class App extends Component<Props> {
       <SafeAreaView style={styles.container}>
         <ScrollView
           style={styles.scrollView}
-          contentContainerStyle={styles.containerStyles}>
+          contentContainerStyle={styles.containerStyles}
+        >
           <Bower style={styles.logo} />
           <Snyk style={styles.logo} />
           <Drupal style={styles.logo} />

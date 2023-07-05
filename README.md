@@ -12,7 +12,7 @@ The SVG images used in this app can be found from the [logos](/logos) folder.
 The `.svg` files can be imported inside a React component:
 
 ```jsx
-import Logo from "./logo.svg";
+import Logo from './logo.svg';
 ```
 
 The images can then be used as a component:
