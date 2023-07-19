@@ -33,7 +33,7 @@
     "metro-react-native-babel-preset": "0.76.5",
     "prettier": "^3.0.0",
     "react-hot-loader": "^4.13.1",
-    "react-native-svg-transformer": "^1.0.0",
+    "react-native-svg-transformer": "^1.1.0",
     "react-test-renderer": "18.2.0",
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
