@@ -1020,19 +1020,12 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.22.5"
 
-"@babel/plugin-transform-react-constant-elements@^7.20.2":
-  version "7.20.2"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.20.2.tgz#3f02c784e0b711970d7d8ccc96c4359d64e27ac7"
-  integrity sha512-KS/G8YI8uwMGKErLFOHS/ekhqdHhpEloxs43NecQHVgo2QuQSyJhGIY1fL8UGl9wy5ItVwwoUL4YxVqsplGq2g==
+"@babel/plugin-transform-react-constant-elements@^7.21.3", "@babel/plugin-transform-react-constant-elements@^7.22.5":
+  version "7.22.5"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.22.5.tgz#6dfa7c1c37f7d7279e417ceddf5a04abb8bb9c29"
+  integrity sha512-BF5SXoO+nX3h5OhlN78XbbDrBOffv+AxPP2ENaJOVqjWCgBDeOY3WcaUcddutGSfoap+5NEQ/q/4I3WZIvgkXA==
   dependencies:
-    "@babel/helper-plugin-utils" "^7.20.2"
-
-"@babel/plugin-transform-react-constant-elements@^7.21.3":
-  version "7.21.3"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-react-constant-elements/-/plugin-transform-react-constant-elements-7.21.3.tgz#b32a5556100d424b25e388dd689050d78396884d"
-  integrity sha512-4DVcFeWe/yDYBLp0kBmOGFJ6N2UYg7coGid1gdxb4co62dy/xISDMaYBXBVXEDhfgMk7qkbcYiGtwd5Q/hwDDQ==
-  dependencies:
-    "@babel/helper-plugin-utils" "^7.20.2"
+    "@babel/helper-plugin-utils" "^7.22.5"
 
 "@babel/plugin-transform-react-display-name@^7.0.0", "@babel/plugin-transform-react-display-name@^7.18.6":
   version "7.18.6"

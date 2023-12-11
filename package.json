@@ -11,7 +11,7 @@
     "android": "react-native run-android"
   },
   "dependencies": {
-    "@babel/plugin-transform-react-constant-elements": "^7.20.2",
+    "@babel/plugin-transform-react-constant-elements": "^7.22.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.72.1",
