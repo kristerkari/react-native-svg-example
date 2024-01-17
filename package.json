@@ -19,7 +19,7 @@
     "react-native-web": "^0.19.10"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
+    "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.22.9",
     "@babel/runtime": "^7.23.2",
     "@react-native/metro-config": "^0.72.7",
