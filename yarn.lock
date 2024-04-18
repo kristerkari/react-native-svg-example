@@ -2013,7 +2013,7 @@
     babel-plugin-transform-flow-enums "^0.0.2"
     react-refresh "^0.14.0"
 
-"@react-native/babel-preset@^0.74.80":
+"@react-native/babel-preset@0.74.80", "@react-native/babel-preset@^0.74.80":
   version "0.74.80"
   resolved "https://registry.yarnpkg.com/@react-native/babel-preset/-/babel-preset-0.74.80.tgz#4ab3565dc664baa139f12946da9b2f0b861e387a"
   integrity sha512-p2n2CGs1DJL+PZTszHuBA1JttosawgYrw4SV2yiR4ChlJUaUaaEUvgcI4Ex5sBZidnNgwgOtVzGLTEgTw8vwEg==
@@ -2137,6 +2137,11 @@
   resolved "https://registry.yarnpkg.com/@react-native/js-polyfills/-/js-polyfills-0.73.1.tgz#730b0a7aaab947ae6f8e5aa9d995e788977191ed"
   integrity sha512-ewMwGcumrilnF87H4jjrnvGZEaPFCAC4ebraEK+CurDDmwST/bIicI4hrOAv+0Z0F7DEK4O4H7r8q9vH7IbN4g==
 
+"@react-native/js-polyfills@0.74.80":
+  version "0.74.80"
+  resolved "https://registry.yarnpkg.com/@react-native/js-polyfills/-/js-polyfills-0.74.80.tgz#62740e9a8b1e1a952a6333575302952286c533f7"
+  integrity sha512-BztuMz1Cisz0s+shchrlmbptaXkMGhmDw/lcHbm8eoeCMy1FvqBDbX8GHU9DhLOEez5xtOu/iCLfT2cxlzM8Yw==
+
 "@react-native/metro-babel-transformer@0.73.15":
   version "0.73.15"
   resolved "https://registry.yarnpkg.com/@react-native/metro-babel-transformer/-/metro-babel-transformer-0.73.15.tgz#c516584dde62d65a46668074084359c03e6a50f1"
@@ -2147,13 +2152,23 @@
     hermes-parser "0.15.0"
     nullthrows "^1.1.1"
 
-"@react-native/metro-config@^0.73.5":
-  version "0.73.5"
-  resolved "https://registry.yarnpkg.com/@react-native/metro-config/-/metro-config-0.73.5.tgz#791242ca93057d7299ce18379ea11d3bdb368ea9"
-  integrity sha512-3bNWoHzOzP/+qoLJtRhOVXrnxKmSY3i4y5PXyMQlIvvOI/GQbXulPpEZxK/yUrf1MmeXHLLFufFbQWlfDEDoxA==
+"@react-native/metro-babel-transformer@0.74.80":
+  version "0.74.80"
+  resolved "https://registry.yarnpkg.com/@react-native/metro-babel-transformer/-/metro-babel-transformer-0.74.80.tgz#4ab09924778ea6d3840fde8354f1d9c77d7a9f54"
+  integrity sha512-6wPVs97xio6eDaMSxuF3+qtoaYHYulbnoNTk2naVn+N4d/z3hObJrKiHgIE/Ws6vFvBi8xZgPgIjBEBaXxPw5g==
   dependencies:
-    "@react-native/js-polyfills" "0.73.1"
-    "@react-native/metro-babel-transformer" "0.73.15"
+    "@babel/core" "^7.20.0"
+    "@react-native/babel-preset" "0.74.80"
+    hermes-parser "0.19.1"
+    nullthrows "^1.1.1"
+
+"@react-native/metro-config@^0.74.80":
+  version "0.74.80"
+  resolved "https://registry.yarnpkg.com/@react-native/metro-config/-/metro-config-0.74.80.tgz#1b5a1bc24c063ea9533f7756fa0cb32e03f609c9"
+  integrity sha512-6yac0reJQDNHAs/DfEGAicIFfq4Fa/6Ca7Pfbx5lI4Mmd4jbWUaAnhNspVLHtlHd5x3fkYERTN17zVRKHMFp/A==
+  dependencies:
+    "@react-native/js-polyfills" "0.74.80"
+    "@react-native/metro-babel-transformer" "0.74.80"
     metro-config "^0.80.3"
     metro-runtime "^0.80.3"
 
