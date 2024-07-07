@@ -1975,7 +1975,7 @@
   dependencies:
     "@react-native/codegen" "0.74.85"
 
-"@react-native/babel-preset@0.74.84", "@react-native/babel-preset@^0.74.84":
+"@react-native/babel-preset@0.74.84":
   version "0.74.84"
   resolved "https://registry.yarnpkg.com/@react-native/babel-preset/-/babel-preset-0.74.84.tgz#703ebfc810d82c9f51f033352abd5f9fa70d492b"
   integrity sha512-WUfu6Y4aGuVdocQZvx33BJiQWFH6kRCHYbZfBn2psgFrSRLgQWEQrDCxqPFObNAVSayM0rNhp2FvI5K/Eyeqlg==
@@ -2024,7 +2024,7 @@
     babel-plugin-transform-flow-enums "^0.0.2"
     react-refresh "^0.14.0"
 
-"@react-native/babel-preset@0.74.85":
+"@react-native/babel-preset@0.74.85", "@react-native/babel-preset@^0.74.85":
   version "0.74.85"
   resolved "https://registry.yarnpkg.com/@react-native/babel-preset/-/babel-preset-0.74.85.tgz#3ce6ca77a318dec226fd9e3fff9c2ef7b0aa66e3"
   integrity sha512-yMHUlN8INbK5BBwiBuQMftdWkpm1IgCsoJTKcGD2OpSgZhwwm8RUSvGhdRMzB2w7bsqqBmaEMleGtW6aCR7B9w==
