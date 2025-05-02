@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 
 module.exports = {
-  entry: ['react-hot-loader/patch', './index.web.js'],
+  entry: ['./index.web.js'],
   devServer: {
     hot: true,
     static: __dirname,
@@ -23,7 +23,6 @@ module.exports = {
             'react',
             'module:@react-native/babel-preset',
           ],
-          plugins: ['react-hot-loader/babel'],
         },
       },
       {
