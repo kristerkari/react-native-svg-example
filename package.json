@@ -37,7 +37,7 @@
     "prettier": "^3.6.2",
     "react-native-svg-transformer": "^1.5.1",
     "react-test-renderer": "19.1.0",
-    "webpack": "^5.99.7",
+    "webpack": "^5.104.1",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.1"
   },
